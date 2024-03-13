@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body * {
+    font-family: "Roboto", sans-serif;
+}
+
+.content {
+    margin-left: 60px;
+}
+
+header {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    
+}
+
+.menu svg {
+    height: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 999px; 
+    padding-left: 12px;
+    width: 536px;
+   
+}
+
+.search input {
+    outline: none;
+    flex: 1;
+    border: none;
+    
+    
+}
+
+.search button {
+    border: 1px solid #f8f8f8;
+    border-radius: 0 40px 40px 0;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+header img .avatar{
+    border-radius: 50%;
+
+}
+
+nav {
+    padding: 8px 12px;
+    display: flex;
+    gap: 8px;
+}
+
+nav button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 0;
+}
+
+nav button:hover,
+.active {
+    background-color: black;
+    color: white;
+}
+
+main {
+    padding: 12px;
+    margin-top: 12px;
+    display: flex;
+    gap: 16px;
+    overflow: hidden;
+    max-width: calc(100vw - 12px);
+    flex-wrap: wrap;
+}
+
+section img {
+    width: 400px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.info {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.info h6 {
+    font-size: 16px;
+    font-weight: 500;
+    width: 368px;
+    overflow: hidden;
+
+}
+
+.info p {
+    font-size: 14px;
+    opacity: 0.6;
+    margin-top: 6px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex:0;
+}
